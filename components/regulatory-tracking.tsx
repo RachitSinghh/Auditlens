@@ -159,7 +159,7 @@ export function RegulatoryTracking() {
             Manage Alerts
           </Button>
           <Button className="bg-blue-600 hover:bg-blue-700">
-            <Plus className="w-4 h-4 mr-2" />
+            {/* <Plus className="w-4 h-4 mr-2" /> */}
             Add Framework
           </Button>
         </div>
@@ -419,10 +419,10 @@ export function RegulatoryTracking() {
                     </div>
                     <div className="flex items-center space-x-4">
                       <div className="flex items-center space-x-2">
-                        <Switch
+                        {/* <Switch
                           checked={alert.enabled}
                           className="data-[state=checked]:bg-blue-600"
-                        />
+                        /> */}
                         <span className="text-sm text-slate-300">
                           {alert.enabled ? 'Enabled' : 'Disabled'}
                         </span>
@@ -437,7 +437,7 @@ export function RegulatoryTracking() {
               
               <div className="flex justify-end mt-6">
                 <Button className="bg-blue-600 hover:bg-blue-700">
-                  <Plus className="w-4 h-4 mr-2" />
+                  {/* <Plus className="w-4 h-4 mr-2" /> */}
                   Add Alert Subscription
                 </Button>
               </div>

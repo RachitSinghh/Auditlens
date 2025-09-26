@@ -150,7 +150,7 @@ export function DocumentRepository() {
             Share Collection
           </Button>
           <Button className="bg-blue-600 hover:bg-blue-700">
-            <Upload className="w-4 h-4 mr-2" />
+            {/* <Upload className="w-4 h-4 mr-2" /> */}
             Upload Documents
           </Button>
         </div>
@@ -333,7 +333,7 @@ export function DocumentRepository() {
                     : "Upload your first document to get started"}
                 </p>
                 <Button className="bg-blue-600 hover:bg-blue-700">
-                  <Upload className="w-4 h-4 mr-2" />
+                  {/* <Upload className="w-4 h-4 mr-2" /> */}
                   Upload Documents
                 </Button>
               </CardContent>
